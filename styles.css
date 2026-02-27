@@ -185,3 +185,46 @@ h2 {
     justify-content: center;
   }
 }
+
+
+.cart-link {
+  background: #eff6ff;
+  padding: 0.35rem 0.6rem;
+  border-radius: 999px;
+}
+
+.checkout-form {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.form-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 0.8rem;
+  padding: 1rem;
+  display: grid;
+  gap: 0.8rem;
+}
+
+.form-card label {
+  display: grid;
+  gap: 0.35rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.form-card input,
+.form-card select {
+  border: 1px solid var(--border);
+  border-radius: 0.5rem;
+  padding: 0.65rem 0.7rem;
+  font: inherit;
+}
+
+.split-fields {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0.8rem;
+}
